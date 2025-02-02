@@ -1,5 +1,4 @@
 # Image_segmentation
-# DeepBee Segmentation
 
 ## Overview
 This aims to segment the region of actual bee frames using a U-Net model, removing other elements. The dataset used is from [DeepBee Source](https://github.com/avsthigao/deepbee-source/tree/release-0.1/src/data/resources).
