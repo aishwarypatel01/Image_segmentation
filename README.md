@@ -1,15 +1,20 @@
-# Image_segmentation
+# Image Segmentation using U-Net
 
 ## Overview
-This aims to segment the region of actual bee frames using a U-Net model, removing other elements. The dataset used is from [DeepBee Source](https://github.com/avsthigao/deepbee-source/tree/release-0.1/src/data/resources).
+This project implements an image segmentation model using a **U-Net architecture** to segment bee frames from images while filtering out unnecessary elements. The dataset consists of images with **YOLO-format annotations**, which are converted into segmentation masks for training a deep learning model.
 
-## Repository Structure
-- **/data**: Directory for storing raw and processed data.
-- **/notebooks**: Jupyter notebooks for experimentation and visualization.
-- **/src**: Source code including data preprocessing, model definition, and main script.
-- **/results**: Directory for storing results such as predictions, metrics, and plots.
+The trained model achieves high segmentation accuracy with the following evaluation metrics:
+- **Validation Loss:** 0.1392
+- **Validation Accuracy:** 83.24%
+- **Mean Average Precision (mAP):** 0.8058
+- **F1 Score:** 0.8611
 
-## Requirements
-Install dependencies using the following command:
-```bash
-pip install -r requirements.txt
+---
+
+## Project Structure
+├── data/ # Raw and processed dataset
+├── notebook/ # Jupyter notebook for experimentation and implementation
+├── results/ # Predictions, metrics, and plots
+├── model/ # Saved trained model
+├── README.md # Project documentation
+└── requirements.txt # Dependencies
