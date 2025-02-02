@@ -10,13 +10,10 @@ The trained model achieves high segmentation accuracy with the following evaluat
 - **F1 Score:** 0.8611
 
 ---
-
-## Project Structure
-├── data/ # Raw and processed dataset
-├── notebook/ # Jupyter notebook for experimentation and implementation
-├── results/ # Predictions, metrics, and plots
-├── model/ # Saved trained model
-├── README.md # Project documentation
-└── requirements.txt # Dependencies
-
----
+## Repository Structure
+- **data**: Directory for storing raw and processed data.
+- **notebook**: Jupyter notebooks for experimentation, implementation and visualization.
+- **results**: Predictions, metrics, and plots
+- **model**: Saved trained model
+- **README.md**: Project documentation
+- **requirements.txt**: Dependencies
