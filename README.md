@@ -18,3 +18,5 @@ The trained model achieves high segmentation accuracy with the following evaluat
 ├── model/ # Saved trained model
 ├── README.md # Project documentation
 └── requirements.txt # Dependencies
+
+---
